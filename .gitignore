@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+too-late/node_modules
+too-late/.pnp
+too-late/.pnp.js
+
+# testing
+too-late/coverage
+
+# production
+too-late/build
+
+# misc
+too-late/.DS_Store
+too-late/.env.local
+too-late/.env.development.local
+too-late/.env.test.local
+too-late/.env.production.local
+
+too-late/npm-debug.log*
+too-late/yarn-debug.log*
+too-late/yarn-error.log*
+too-late/package-lock.json
